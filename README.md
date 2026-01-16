@@ -6,10 +6,10 @@
 
 > **Top 5 Finalist - SPARK IT UP Innovation Contest 2025 (UIT)**
 
-![Green Safe Dashboard]
+[Green Safe Dashboard]
 <img width="1878" height="919" alt="image" src="https://github.com/user-attachments/assets/52d3e149-bead-4d2f-bc85-ca373d51a442" />
 
-*(Green Safe Central Dashboard - Real-time Monitoring Interface)*
+
 
 ##  Introduction
 
@@ -46,7 +46,20 @@ Although this repo focuses on the Web Interface, the full Green Safe ecosystem i
 
 ##  Getting Started
 
-Follow these steps to run the dashboard locally:
+Green_Safe_Canopy_project/
+├── firmware/              
+│   ├── main.ino
+│   └── lora_config.h
+├── src/                   
+│   ├── components/
+│   ├── assets/
+│   └── index.tsx
+├── docs/                  
+│   ├── Spark_It_Up_Slides.pdf
+│   └── System_Architecture.png
+├── README.md              
+├── package.json
+└── vite.config.ts
 
 ```bash
 # 1. Clone the repository
