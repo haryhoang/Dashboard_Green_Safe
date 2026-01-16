@@ -167,15 +167,6 @@ const Sidebar = ({
           </span>
         </button>
 
-        {/* Poster Generator Button */}
-        <button
-          onClick={onOpenPoster}
-          className="flex items-center gap-4 px-4 py-3.5 rounded-xl text-slate-400 hover:bg-white/5 hover:text-white transition-all duration-200 group"
-        >
-          <ImageIcon className="w-5 h-5 group-hover:text-purple-400" />
-          <span className="hidden lg:block font-medium">Tạo Poster</span>
-        </button>
-
         {/* Export Button */}
         <button
           onClick={handleExport}
@@ -642,3 +633,4 @@ const App = () => {
 const root = createRoot(document.getElementById('root')!);
 
 root.render(<App />);
+
